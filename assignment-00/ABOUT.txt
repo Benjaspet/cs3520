@@ -1,0 +1,36 @@
+-- What was the issue in circle.cpp and how did you fix it?
+The issue I found with circle.cpp was that the calculations for
+diameter, area, and circumference were not actually being calculated;
+instead, it was printing the radius every time. To fix this, I did
+the necessary math operations to actually compute the diameter,
+area, and circumference.
+
+-- What was the issue in hello.cpp and how did you fix it?
+The issue I found with hello.cpp was that it was not actually
+printing the inputted name. It was instead printing an empty string
+for some reason. I fixed this by simply replacing the empty string
+with the name variable, which was defined as stdin.
+
+-- What was the issue in numbername.cpp and how did you fix it?
+The issue I found with numbername.ccp was that the names of the numbers
+were not actually being handled and printed in the switch statement, but
+instead printed empty strings every time. I fixed this by replacing the
+empty string in the appropriate switch case with either name1, name2,
+or name3.
+
+============================================================
+
+-- Did you use any external resources? If so, cite them below.
+I did not use any external resources for this assignment.
+
+-- How many hours did it take you to complete this assignment?
+It took me around 20 minutes to complete this assignment.
+
+-- (Optional) What was your favorite part of the assignment?
+My favorite part of this assignment was reading and analyzing the
+provided starter code and going through the debugging process. I
+also had some fun with setting up Doxygen comments.
+
+-- (Optional) How would you improve the assignment?
+I would not improve this assignment; I think it is a great
+introduction to C++ programming!
